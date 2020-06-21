@@ -1,0 +1,16 @@
+/* SETTINGS */
+@import './settings/colors.css';
+@import './settings/gaps.css';
+@import './settings/font.css';
+/* TOOLS */
+@import './tools/geral.css';
+/* RESET */
+@import './reset.css';
+/* ELEMENTS */
+/* COMPONENTS */
+@import './components/title.css';
+@import './components/tela-inicial.css';
+@import './components/porco.css';
+@import './components/section2.css';
+/* CONTAINERS */
+@import './containers/text-center.css';
