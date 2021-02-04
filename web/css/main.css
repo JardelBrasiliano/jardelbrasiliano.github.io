@@ -1,16 +1,14 @@
+/*FONT*/
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 /* SETTINGS */
-@import './settings/colors.css';
-@import './settings/gaps.css';
-@import './settings/font.css';
+@import "./settings/colors.css";
+@import "./settings/gaps.css";
+@import "./settings/font.css";
 /* TOOLS */
-@import './tools/geral.css';
+@import "./tools/geral.css";
 /* RESET */
-@import './reset.css';
+@import "./reset.css";
 /* ELEMENTS */
 /* COMPONENTS */
-@import './components/title.css';
-@import './components/tela-inicial.css';
-@import './components/porco.css';
-@import './components/section2.css';
+@import "./components/main.css";
 /* CONTAINERS */
-@import './containers/text-center.css';

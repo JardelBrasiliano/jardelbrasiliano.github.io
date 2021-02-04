@@ -1,0 +1,127 @@
+.header-container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-content {
+  max-width: 900px;
+  margin: 0 40px;
+}
+
+/*LIGA - DESLIGA*/
+
+.toggle {
+  position: relative;
+
+  width: 55px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: grey;
+
+  transition: box-shadow 1s ease-in-out;
+}
+.toggle.clicked {
+  background-color: #bae67e;
+}
+.toggle .circle {
+  position: absolute;
+  top: 1px;
+  left: 3px;
+
+  width: 23px;
+  height: 23px;
+
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 5px 5px 70px #cfcfcf, -5px -5px 70px #ffffff;
+  transition: box-shadow 1s ease, left 0.5s ease-in;
+}
+.toggle .circle.clicked {
+  left: 28px;
+}
+.header-liga-desliga-content {
+  width: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.header-liga-desliga-content img {
+  width: 25px;
+  margin-bottom: 5px;
+}
+/*LIGA - DESLIGA*/
+
+.header-content h1 {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 117px;
+}
+.header-sobre {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 70px;
+}
+.header-content strong {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.header-contato-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-contato {
+  font-family: Poiret One;
+  line-height: 70px;
+}
+.header-contato-email {
+  margin-left: 10px;
+  margin-right: 30px;
+  font-family: Poiret One;
+  color: black;
+  text-decoration: none;
+  border-bottom: 4px #5bd8d9 solid;
+}
+
+.social-container {
+  position: fixed;
+  bottom: 0;
+  left: 60px;
+}
+.social-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social-content img {
+  width: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  transition: trasnform ease 0.5s;
+}
+.social-content img:hover {
+  transform: scale(1.1);
+}
+.social-linha {
+  background-color: black;
+  width: 2px;
+  height: 160px;
+}
