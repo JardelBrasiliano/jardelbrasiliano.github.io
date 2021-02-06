@@ -12,18 +12,20 @@
   flex-direction: column;
 }
 
-.social-content img {
+.social-content svg {
+  fill: var(--color-second);
+
   width: 20px;
   margin-bottom: 10px;
   cursor: pointer;
 
   transition: trasnform ease 0.5s;
 }
-.social-content img:hover {
+.social-content svg:hover {
   transform: scale(1.1);
 }
 .social-linha {
-  background-color: black;
+  background-color: var(--color-second);
   width: 2px;
   height: 160px;
 }

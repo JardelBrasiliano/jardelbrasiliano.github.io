@@ -1,6 +1,8 @@
-:root{
-    --color-blue: #5BD8D9;
-    --color-green: #52CF6F;
-    --color-yelow: #D6E140;
-    --color-white: #f2f2f2;
+:root {
+  --color-body: #f2f2f2;
+  --color-second: #000;
+}
+.dark-mode:root {
+  --color-body: #121212;
+  --color-second: #fff;
 }

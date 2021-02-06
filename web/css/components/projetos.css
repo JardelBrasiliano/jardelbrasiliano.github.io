@@ -1,10 +1,15 @@
 .projeto-conteiner {
+  color: var(--color-second);
+
   width: 100%;
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.projeto-conteiner a {
+  color: var(--color-second);
 }
 .projeto-content-titulo {
   width: 900px;
@@ -18,8 +23,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
-
-  color: #000000;
 }
 
 .projeto-contents-lista {
@@ -44,8 +47,6 @@
   font-weight: normal;
   font-size: 25px;
   text-decoration: none;
-
-  color: #000000;
 }
 .projeto-projeto-nome::after {
   content: "";
@@ -69,8 +70,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-
-  color: #000000;
 }
 .projeto-projeto-seta {
   width: 25px;
@@ -104,8 +103,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-
-  color: #000000;
 }
 
 .projeto-content-ver-tudo {
@@ -120,8 +117,6 @@
   font-weight: normal;
   font-size: 15px;
   text-decoration: none;
-
-  color: #000000;
 }
 
 .projeto-ver-tudo::after {
