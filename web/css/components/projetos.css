@@ -1,0 +1,143 @@
+.projeto-conteiner {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.projeto-content-titulo {
+  width: 900px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.projeto-titulo {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+
+  color: #000000;
+}
+
+.projeto-contents-lista {
+  min-width: 630px;
+  margin: 20px 0px;
+}
+.projeto-projeto:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.projeto-projeto-content-nome {
+  margin-bottom: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.projeto-projeto-nome {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  text-decoration: none;
+
+  color: #000000;
+}
+.projeto-projeto-nome::after {
+  content: "";
+  position: relative;
+  background: url("../../img/seta.svg") no-repeat;
+  width: 25px;
+  height: 20px;
+  margin-left: 10px;
+  background-size: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+
+  transition: ease-in-out 0.5s all;
+}
+.projeto-projeto-nome:hover::after {
+  margin-left: 20px;
+}
+.projeto-projeto-descricao {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+
+  color: #000000;
+}
+.projeto-projeto-seta {
+  width: 25px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+
+  transition: ease-in-out all 0.5s;
+}
+
+.projeto-projeto-seta:hover {
+  transform: scale(1.05);
+  margin-left: 12px;
+}
+
+.projeto-projeto-content-box {
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.projeto-projeto-box {
+  margin-right: 8px;
+  padding: 5px 35px;
+
+  border: #5bd8d9 solid 1px;
+}
+.projeto-projeto-box > p {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+
+  color: #000000;
+}
+
+.projeto-content-ver-tudo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.projeto-ver-tudo {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.projeto-ver-tudo::after {
+  content: "";
+  position: absolute;
+  background: url("../../img/seta.svg") no-repeat;
+  width: 20px;
+  height: 15px;
+  margin-left: 10px;
+  background-size: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+
+  transition: ease-in-out 0.5s all;
+}
+.projeto-ver-tudo:hover::after {
+  margin-left: 15px;
+}

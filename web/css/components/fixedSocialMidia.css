@@ -1,0 +1,50 @@
+.social-container {
+  position: fixed;
+  left: 60px;
+  bottom: 0;
+
+  animation: anima 3s ease-out;
+}
+.social-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social-content img {
+  width: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  transition: trasnform ease 0.5s;
+}
+.social-content img:hover {
+  transform: scale(1.1);
+}
+.social-linha {
+  background-color: black;
+  width: 2px;
+  height: 160px;
+}
+
+@keyframes anima {
+  0% {
+    bottom: -280px;
+  }
+  80% {
+    bottom: 10px;
+  }
+  85% {
+    bottom: 0px;
+  }
+  90% {
+    bottom: 5px;
+  }
+  95% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 2px;
+  }
+}

@@ -1,5 +1,3 @@
-import toggle from './modules/toggle.js';
-import animaHover from './modules/animaHover.js';
-
-toggle
-animaHover
+import './modules/toggle.js';
+import './modules/animaHover.js';
+import './modules/projetos.js';

@@ -10,5 +10,10 @@
 @import "./reset.css";
 /* ELEMENTS */
 /* COMPONENTS */
-@import "./components/main.css";
+@import "./components/header.css";
+@import "./components/projetos.css";
+@import "./components/fixedSocialMidia.css";
+@import "./components/ligaEDesliga.css";
+@import "./components/footer.css";
+
 /* CONTAINERS */
