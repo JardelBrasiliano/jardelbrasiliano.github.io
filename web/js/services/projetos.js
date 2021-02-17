@@ -6,6 +6,12 @@ const listaProjetos = [
     "topicos": ["React", "Firebase", "Redux", "Redux-saga", "Axios"]
   },
   {
+    "name": "Daminha",
+    "descricao": "Jogo de dama para ser jogado offline.",
+    "url": "https://github.com/JardelBrasiliano/daminha-game",
+    "topicos": ["React", "Context Api"]
+  },
+  {
     "name": "Happy nlw firebase",
     "descricao": "Implementação do firebase no projeto #NextLevelWeek3 da @Rocketseat.",
     "url": "https://github.com/JardelBrasiliano/happy-nlw-firebase",
